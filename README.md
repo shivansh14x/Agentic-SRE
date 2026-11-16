@@ -1,5 +1,5 @@
 <h1 align="center"> <!-- spellchecker:disable-line -->
-    🚀 Agentic SRE 🕵️‍♀️
+    Agentic SRE 
 </h1>
 
 <p align="center">
