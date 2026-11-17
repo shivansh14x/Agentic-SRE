@@ -60,7 +60,7 @@ def _build_banner(colour_offset: int) -> Panel:
 
     footer_text = Text(justify="right")
     footer_text.append(f"v{_get_version()}\n", style="#FBBF24")
-    footer_text.append("Made by DIVYANSH RAWAT", style="dim white")
+    footer_text.append("Made by shivansh14x", style="dim white")
     return Panel(
         Group(banner_text, footer_text),
         title="Welcome to Agentic SRE",

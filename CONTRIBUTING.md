@@ -42,7 +42,7 @@ cd agentic-sre
 4. Add the `upstream` remote. Adding this means you can keep your repository sync'd with the latest changes to the main repository:
 
 ```bash
-git remote add upstream git@github.com:DsThakurRawat/agentic-sre.git
+git remote add upstream git@github.com:shivansh14x/agentic-sre.git
 ```
 
 5. Check that these remote aliases are correctly configured by running: `git remote -v`, this should show the following:
@@ -50,11 +50,11 @@ git remote add upstream git@github.com:DsThakurRawat/agentic-sre.git
 ```bash
 origin  git@github.com:<your_username>/agentic-sre.git (fetch)
 origin  git@github.com:<your_username>/agentic-sre.git (push)
-upstream        git@github.com:DsThakurRawat/agentic-sre.git (fetch)
-upstream        git@github.com:DsThakurRawat/agentic-sre.git (push)
+upstream        git@github.com:shivansh14x/agentic-sre.git (fetch)
+upstream        git@github.com:shivansh14x/agentic-sre.git (push)
 ```
 
-Now you have git properly configured, you can install the development dependencies which are described in [DEVELOPMENT.md](https://github.com/DsThakurRawat/Agentic-SRE/blob/main/DEVELOPMENT.md). Once the development environment is setup, you can start making changes by following these steps:
+Now you have git properly configured, you can install the development dependencies which are described in [DEVELOPMENT.md](https://github.com/shivansh14x/Agentic-SRE/blob/main/DEVELOPMENT.md). Once the development environment is setup, you can start making changes by following these steps:
 
 6. Sync your `main` branch with the `upstream/main` branch:
 
@@ -70,7 +70,7 @@ git merge upstream/main
 git checkout -b <your_feature>
 ```
 
-and you can now start making changes! We're sure that you don't need reminding but it's good practise to never work on the `main` branch and to always use a feature branch. The [DEVELOPMENT.md](https://github.com/DsThakurRawat/Agentic-SRE/blob/main/DEVELOPMENT.md) guide tells you how to run tests.
+and you can now start making changes! We're sure that you don't need reminding but it's good practise to never work on the `main` branch and to always use a feature branch. The [DEVELOPMENT.md](https://github.com/shivansh14x/Agentic-SRE/blob/main/DEVELOPMENT.md) guide tells you how to run tests.
 
 8. Develop your feature on your computer and when you're done editing, add the changed files to git and then commit:
 
@@ -95,7 +95,7 @@ It's important to do the following, and the PR template that you'll see will ask
 
 * Give your pull request a helpful title which summarises what your contribution does.
 
-* Make sure your code passes the tests. At the moment, running the whole test suite doesn't take a long time so we advice doing that with `pytest` (see the [DEVELOPMENT.md](https://github.com/DsThakurRawat/Agentic-SRE/blob/main/DEVELOPMENT.md) guide).
+* Make sure your code passes the tests. At the moment, running the whole test suite doesn't take a long time so we advice doing that with `pytest` (see the [DEVELOPMENT.md](https://github.com/shivansh14x/Agentic-SRE/blob/main/DEVELOPMENT.md) guide).
 
 * Your PR will also be checked for spelling errors in the CI by the [`typos`](https://github.com/crate-ci/typos) crate. If a false positive is raised by the checker, consider adding it to the `.typos.toml` file in the root of the project.
 

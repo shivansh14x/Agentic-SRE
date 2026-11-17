@@ -2,7 +2,7 @@
     "case_id": "tool_call_no_error_log_found_test_case_01",
     "log_group": "mock_log_group",
     "service_name": "currencyservice",
-    "github_owner": "DsThakurRawat",
+    "github_owner": "shivansh14x",
     "github_repo": "agentic-sre-eval",
     "github_ref": "main",
     "mock_cloudwatch_entries": [],

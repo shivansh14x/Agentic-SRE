@@ -6,7 +6,7 @@ This directory contains evaluation suites for the SRE agent.
 
 Evaluations use intentionally flawed service snippets from:
 
-- [agentic-sre-eval](https://github.com/DsThakurRawat/Agentic-SRE-eval)
+- [agentic-sre-eval](https://github.com/shivansh14x/Agentic-SRE-eval)
 
 Evaluations are implemented with [Opik](https://github.com/comet-ml/opik).
 

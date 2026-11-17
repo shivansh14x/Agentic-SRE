@@ -27,12 +27,12 @@ Welcome to **Agentic SRE**. This is a premium, open-source multi-agent orchestra
 
 ### Linux / macOS
 ```bash
-curl -fsSL https://raw.githubusercontent.com/DsThakurRawat/Agentic-SRE/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/shivansh14x/Agentic-SRE/main/scripts/install.sh | bash
 ```
 
 ### Windows (PowerShell)
 ```powershell
-irm https://raw.githubusercontent.com/DsThakurRawat/Agentic-SRE/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/shivansh14x/Agentic-SRE/main/scripts/install.ps1 | iex
 ```
 
 ### Manual (via pip)
@@ -140,7 +140,7 @@ graph TD
 - [x] AWS ECS
 
 > [!TIP]
-> Looking for a feature or integration that is not listed yet? Open a [Feature / Integration request](https://github.com/DsThakurRawat/Agentic-SRE/issues/new?template=feature_or_integration_request.yml) 🚀
+> Looking for a feature or integration that is not listed yet? Open a [Feature / Integration request](https://github.com/shivansh14x/Agentic-SRE/issues/new?template=feature_or_integration_request.yml) 🚀
 
 # 🧪 Evaluation
 
@@ -161,7 +161,7 @@ uv run agentic-sre-run-diagnosis-quality-eval
 
 We wanted to learn practical best practices for running AI agents in production: cost, safety, observability, and evaluation. We are sharing the journey in the open and publishing what we learn as we go.
 
-We also write about this work on the [DIVYANSH RAWAT blog](https://www.DsThakurRawat.ai/blog).
+We also write about this work on the [shivansh14x blog](https://www.shivansh14x.ai/blog).
 
 > **Contributions welcome.** [Join us](CONTRIBUTING.md) and help shape the future of AI-powered SRE.
 
