@@ -2,7 +2,7 @@
 name = "agentic-sre"
 version = "0.2.1"
 description = "Flagship orchestration engine for the Autonomous Multi-Agent AI Organization, automating infrastructure monitoring, diagnosis, and self-healing."
-authors = [{ name = "DIVYANSH RAWAT", email = "divyanshrawatofficial@gmail.com" }]
+authors = [{ name = "shivansh14x", email = "shivanshsrivastava8400@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.13,<4.0"
 license = { text = "MIT" }
